@@ -1,0 +1,26 @@
+{
+  "name": "saucedemobddcucumber",
+  "version": "1.0.0",
+  "description": "BDD tests for the Sauce Demo application",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "set HEADLESS=false&& cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "playwright": "^1.63.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.2",
+    "allure-commandline": "^2.46.1",
+    "allure-cucumberjs": "^3.12.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
